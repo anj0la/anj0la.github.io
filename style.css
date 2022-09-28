@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-image: url(images/hero.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  background-color: #b3968e;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 5px 40px;
+  color: white;
+}
+
+h1.tutoring {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px 0 20px 0;
+}
+
+#welcome {
+  text-align: center;
+  padding: 20px 30px;
+  font-size: 30px;
+}
+
+p {
+  padding: 10px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #00d775;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+div.tutors {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px 0;
+  background-color: #35505c;
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 20px;
+  }
+  #welcome {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  button {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+  div.tutors {
+    flex-direction: column;
+  }
+  h2.subject {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
